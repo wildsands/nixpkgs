@@ -101,11 +101,11 @@
     "vendorHash": "sha256-quoFrJbB1vjz+MdV+jnr7FPACHuUe5Gx9POLubD2IaM="
   },
   "baidubce_baiducloud": {
-    "hash": "sha256-0THQNO2odOAeRKwi9NpQnq52YwgdYATAchAM5iw55C8=",
+    "hash": "sha256-UDcyYXo4K7tlr5appmzgZh1V+wX3WuaC6YEWXx5Pk8Y=",
     "homepage": "https://registry.terraform.io/providers/baidubce/baiducloud",
     "owner": "baidubce",
     "repo": "terraform-provider-baiducloud",
-    "rev": "v1.22.18",
+    "rev": "v1.22.19",
     "spdx": "MPL-2.0",
     "vendorHash": null
   },
@@ -887,13 +887,13 @@
     "vendorHash": "sha256-0Z2V8CyIZEHZFFqTNFnseBbvVenOnpNz9Tlbu7zaPOI="
   },
   "maxlaverse_bitwarden": {
-    "hash": "sha256-9HSxaU+/1HaN4mmi9JnKuTwP/HLCh72zcKecTAQJQpM=",
+    "hash": "sha256-n1d2n6CX8iV/bRqQSaivRxMAYKA/ctfWPQaFgS7ETgE=",
     "homepage": "https://registry.terraform.io/providers/maxlaverse/bitwarden",
     "owner": "maxlaverse",
     "repo": "terraform-provider-bitwarden",
-    "rev": "v0.17.1",
+    "rev": "v0.17.3",
     "spdx": "MPL-2.0",
-    "vendorHash": "sha256-vDvGIiUIMjMAz9ST/Qjo7aurkB9RIVeevSUkQ8eJ9tk="
+    "vendorHash": "sha256-2IlD9IdiN+TBk/Eng2K4jZD8GB91IvQPeVAKhxI/6aY="
   },
   "metio_migadu": {
     "hash": "sha256-rAf+q/zNANhW8cFSJR3TtA0yYqiG5mjCStyBFG0U3tg=",
@@ -1049,11 +1049,11 @@
     "vendorHash": null
   },
   "oracle_oci": {
-    "hash": "sha256-gzjvdAuT3HDMRULa+b2u75zqei4x1ylj3NGyHh4qa+U=",
+    "hash": "sha256-2uSMK9GvqCdIPjr/PI4FlOM5qXhPsEY6dnY3S795/vg=",
     "homepage": "https://registry.terraform.io/providers/oracle/oci",
     "owner": "oracle",
     "repo": "terraform-provider-oci",
-    "rev": "v7.32.0",
+    "rev": "v8.0.0",
     "spdx": "MPL-2.0",
     "vendorHash": null
   },
@@ -1283,13 +1283,13 @@
     "vendorHash": "sha256-rWiafaFE1RolO9JUN1WoW4EWJjR7kpfeVEOTLf21j50="
   },
   "tailscale_tailscale": {
-    "hash": "sha256-G8vSPFGtx9klRCW8Rab8UHR1AK1Kt421WMsCE0pohR0=",
+    "hash": "sha256-hw8psXRFtFkBF3x1gj/72bxcnFkuZ5RYXENNeiWB7gc=",
     "homepage": "https://registry.terraform.io/providers/tailscale/tailscale",
     "owner": "tailscale",
     "repo": "terraform-provider-tailscale",
-    "rev": "v0.25.0",
+    "rev": "v0.26.0",
     "spdx": "MIT",
-    "vendorHash": "sha256-UWdPgXvJ68xRUNbAhBQ2SjGkerRlwNUjMA8Yu9EAowo="
+    "vendorHash": "sha256-gc8JCbYzA0nz0JBSNBSZsK0VLTAPmXRhXW2MZiadC90="
   },
   "telmate_proxmox": {
     "hash": "sha256-1aKKlOIk1mH4yx66eD635d1IaUWXIiBGHEt4A2F2mGM=",

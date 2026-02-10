@@ -2022,8 +2022,6 @@ with pkgs;
     protobuf = protobuf_21;
   };
 
-  circus = with python310Packages; toPythonApplication circus;
-
   inherit (callPackage ../applications/networking/remote/citrix-workspace { })
     citrix_workspace_25_08_10
     ;
@@ -9095,6 +9093,7 @@ with pkgs;
 
   nushellPlugins = recurseIntoAttrs {
     gstat = callPackage ../by-name/nu/nushell-plugin-gstat/package.nix { };
+    bson = callPackage ../by-name/nu/nushell-plugin-bson/package.nix { };
     formats = callPackage ../by-name/nu/nushell-plugin-formats/package.nix { };
     polars = callPackage ../by-name/nu/nushell-plugin-polars/package.nix { };
     query = callPackage ../by-name/nu/nushell-plugin-query/package.nix { };
@@ -10099,8 +10098,6 @@ with pkgs;
   pinboard = with python3Packages; toPythonApplication pinboard;
 
   pinboard-notes-backup = haskell.lib.compose.justStaticExecutables haskellPackages.pinboard-notes-backup;
-
-  pixel2svg = python310Packages.callPackage ../tools/graphics/pixel2svg { };
 
   inherit (callPackage ../applications/virtualization/singularity/packages.nix { })
     apptainer
@@ -11863,8 +11860,6 @@ with pkgs;
 
   ultrastar-manager = libsForQt5.callPackage ../tools/misc/ultrastar-manager { };
 
-  ue4demos = recurseIntoAttrs (callPackage ../games/ue4demos { });
-
   # To ensure vdrift's code is built on hydra
   vdrift-bin = vdrift.bin;
 
@@ -12845,7 +12840,6 @@ with pkgs;
 
   winePackages = recurseIntoAttrs (winePackagesFor (config.wine.build or "wine32"));
   wine64Packages = recurseIntoAttrs (winePackagesFor "wine64");
-  wineWowPackages = recurseIntoAttrs (winePackagesFor "wineWow");
   wineWow64Packages = recurseIntoAttrs (winePackagesFor "wineWow64");
 
   wine = winePackages.full;

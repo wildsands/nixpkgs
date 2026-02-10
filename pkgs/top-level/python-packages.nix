@@ -11258,6 +11258,8 @@ self: super: with self; {
 
   ome-zarr = callPackage ../development/python-modules/ome-zarr { };
 
+  ome-zarr-models = callPackage ../development/python-modules/ome-zarr-models { };
+
   omegaconf = callPackage ../development/python-modules/omegaconf { };
 
   omemo = callPackage ../development/python-modules/omemo { };
@@ -13341,6 +13343,8 @@ self: super: with self; {
 
   pydantic-settings = callPackage ../development/python-modules/pydantic-settings { };
 
+  pydantic-zarr = callPackage ../development/python-modules/pydantic-zarr { };
+
   pydantic_1 = callPackage ../development/python-modules/pydantic/1.nix { };
 
   pydash = callPackage ../development/python-modules/pydash { };
@@ -14540,6 +14544,8 @@ self: super: with self; {
 
   pyrate-limiter = callPackage ../development/python-modules/pyrate-limiter { };
 
+  pyrate-limiter_2 = callPackage ../development/python-modules/pyrate-limiter_2 { };
+
   pyrdfa3 = callPackage ../development/python-modules/pyrdfa3 { };
 
   pyre-extensions = callPackage ../development/python-modules/pyre-extensions { };
@@ -14709,6 +14715,8 @@ self: super: with self; {
   pysesame2 = callPackage ../development/python-modules/pysesame2 { };
 
   pyseventeentrack = callPackage ../development/python-modules/pyseventeentrack { };
+
+  pysfcgal = callPackage ../development/python-modules/pysfcgal { };
 
   pysftp = callPackage ../development/python-modules/pysftp { };
 
