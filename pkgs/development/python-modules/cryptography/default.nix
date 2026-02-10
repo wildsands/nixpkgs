@@ -22,7 +22,7 @@
 
 buildPythonPackage rec {
   pname = "cryptography";
-  version = "46.0.4";
+  version = "46.0.5";
   pyproject = true;
 
   disabled = pythonOlder "3.7";
@@ -31,7 +31,7 @@ buildPythonPackage rec {
     owner = "pyca";
     repo = "cryptography";
     tag = version;
-    hash = "sha256-vT99F/wmd/ipgASmIcQITXNgng69Nn7cN66W2cXOzZY=";
+    hash = "sha256-jzdkAVMnKr0z1MBUgs6xjLnTZrqNOBwq3w56JDwgFgk=";
   };
 
   cargoDeps = rustPlatform.fetchCargoVendor {
