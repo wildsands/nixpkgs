@@ -1363,14 +1363,6 @@
     githubId = 60479013;
     name = "Alma Cemerlic";
   };
-  alois31 = {
-    name = "Alois Wohlschlager";
-    email = "alois1@gmx-topmail.de";
-    matrix = "@aloisw:kde.org";
-    github = "alois31";
-    githubId = 36605164;
-    keys = [ { fingerprint = "CA97 A822 FF24 25D4 74AF  3E4B E0F5 9EA5 E521 6914"; } ];
-  };
   Alper-Celik = {
     email = "alper@alper-celik.dev";
     name = "Alper Çelik";
@@ -3805,6 +3797,13 @@
     name = "Frederic Branczyk";
     github = "brancz";
     githubId = 4546722;
+  };
+  brantes = {
+    name = "Pedro Brantes";
+    email = "contact@brantes.simplelogin.com";
+    github = "pedrobrantes";
+    githubId = 58346706;
+    matrix = "@brantes:matrix.org";
   };
   braydenjw = {
     email = "nixpkgs@willenborg.ca";
