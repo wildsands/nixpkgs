@@ -1,21 +1,23 @@
 {
   buildPecl,
-  fetchpatch,
   lib,
   imagemagick,
   pkg-config,
   pcre2,
-  php,
 }:
 
 buildPecl {
   pname = "imagick";
 
   version = "3.8.0";
-  sha256 = "sha256-vaZ0YchU8g1hBXgrdpxST8NziLddRIHZUWRNIWf/7sY=";
+  hash = "sha256-vaZ0YchU8g1hBXgrdpxST8NziLddRIHZUWRNIWf/7sY=";
 
   configureFlags = [ "--with-imagick=${imagemagick.dev}" ];
+
+  depsBuildBuild = [ pkg-config ];
+
   nativeBuildInputs = [ pkg-config ];
+
   buildInputs = [ pcre2 ];
 
   meta = {
