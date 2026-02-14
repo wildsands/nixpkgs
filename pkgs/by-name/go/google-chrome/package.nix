@@ -173,11 +173,11 @@ let
 
   linux = stdenvNoCC.mkDerivation (finalAttrs: {
     inherit pname meta passthru;
-    version = "145.0.7632.45";
+    version = "145.0.7632.75";
 
     src = fetchurl {
       url = "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_${finalAttrs.version}-1_amd64.deb";
-      hash = "sha256-au1T/nd8qaWKaAuEioACIwBWb7kCQkKR4FSYSnhMc6I=";
+      hash = "sha256-4hFjRhkURRq1NXdAUPesS32t/NyG9eb784/sW75DlCU=";
     };
 
     # With strictDeps on, some shebangs were not being patched correctly
@@ -279,11 +279,11 @@ let
 
   darwin = stdenvNoCC.mkDerivation (finalAttrs: {
     inherit pname meta passthru;
-    version = "144.0.7559.97";
+    version = "145.0.7632.76";
 
     src = fetchurl {
-      url = "http://dl.google.com/release2/chrome/acs3ozv33k7hgpukzi2nuehve3aa_144.0.7559.97/GoogleChrome-144.0.7559.97.dmg";
-      hash = "sha256-uhNWvAnifxbNMPR9QiXSgpDK9tnim39q2bLMCM9Q93w=";
+      url = "http://dl.google.com/release2/chrome/n6e44i3vvn55x7sajqc7tgrlx4_145.0.7632.76/GoogleChrome-145.0.7632.76.dmg";
+      hash = "sha256-auSCvJ0r3OyXjDICmgFAeD/MFveOmEZD3fnuryI5ozU=";
     };
 
     dontPatch = true;
@@ -324,9 +324,6 @@ let
     changelog = "https://chromereleases.googleblog.com/";
     description = "Freeware web browser developed by Google";
     homepage = "https://www.google.com/chrome/browser/";
-    knownVulnerabilities = lib.optionals stdenvNoCC.hostPlatform.isDarwin [
-      "Out of date, because the updater (pkgs/by-name/go/google-chrome/update.sh) has stopped working, and there does not seem to be another way to get stable URLs to particular Chrome versions."
-    ];
     license = lib.licenses.unfree;
     maintainers = with lib.maintainers; [
       iedame
