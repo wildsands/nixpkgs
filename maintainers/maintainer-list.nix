@@ -31767,6 +31767,11 @@
     github = "Wilaz";
     githubId = 98198668;
   };
+  wildsands = {
+    name = "Wild Sands";
+    github = "wildsands";
+    githubId = 152220115;
+  };
   wildsebastian = {
     name = "Sebastian Wild";
     email = "sebastian@wild-siena.com";
