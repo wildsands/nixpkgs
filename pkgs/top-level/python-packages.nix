@@ -5978,6 +5978,8 @@ self: super: with self; {
 
   fastapi-pagination = callPackage ../development/python-modules/fastapi-pagination { };
 
+  fastapi-redis-sdk = callPackage ../development/python-modules/fastapi-redis-sdk { };
+
   fastapi-sso = callPackage ../development/python-modules/fastapi-sso { };
 
   fastapi-versionizer = callPackage ../development/python-modules/fastapi-versionizer { };
